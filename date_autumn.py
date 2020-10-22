@@ -25,7 +25,3 @@ def date_autumn(dates):
         else:
             n = "-".join(n)
     return n
-
-
-dates = {"11-27-2006","12-01-2009","08-31-2010","11-28-2008"}
-print(date_autumn(dates))
