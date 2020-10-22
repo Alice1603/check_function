@@ -6,4 +6,4 @@ def remove_palindroms(spells):
         k = 0
         a = ("".join(s[i].split())).lower()
         if a == a[::-1]:
-            new_spells.remove(s[i])
+            new_list.remove(s[i])
