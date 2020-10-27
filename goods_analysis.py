@@ -1,4 +1,5 @@
-def goods_analysis(*args, in_sale = lambda x: 'молоко' in x['название'].lower()):
+def goods_analysis(*args,
+                   in_sale = lambda x: 'молоко' in x['название'].lower()):
     sale = []
     for i in range(len(args)):
         a = args[i]
