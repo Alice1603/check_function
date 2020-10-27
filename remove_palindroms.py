@@ -1,5 +1,5 @@
 def remove_palindroms(spells):
-    global new_spells
+    global new_list
     s = [i for i in spells]
     g = []
     for i in range(len(s)):
