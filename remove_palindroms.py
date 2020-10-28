@@ -5,7 +5,3 @@ def remove_palindroms(spells):
         if a == a[::-1] and s[i] in new_list:
             spells.remove(s[i])
     return spells
-
-new_list = ['Dog', ' Repaper', 'Cat']
-remove_palindroms(new_list)
-print(new_list)
