@@ -4,3 +4,4 @@ def remove_palindroms(spells):
         a = ("".join(s[i].split())).lower()
         if a == a[::-1] and (s[i] in spells):
             spells.remove(s[i])
+    return spells
